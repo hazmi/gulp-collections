@@ -1,4 +1,6 @@
 # Gulp for development with LESS
+Check http://hazmi.id/building-with-gulp-1-compile-less-watch-changes-and-minify-css/ for steps-by-steps guide for this.
+
 ## Install
 ```
 $ npm install
@@ -16,5 +18,3 @@ It will build and watch the changes.
 $ gulp build
 ```
 It will minify the output.
-
-Blog post for this: http://hazmi.id/building-with-gulp-1-compile-less-watch-changes-and-minify-css/
