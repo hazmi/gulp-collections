@@ -1,0 +1,20 @@
+{
+  "name": "GulpCollection_LESS",
+  "version": "0.0.1",
+  "description": "Gulp Collection - LESS",
+  "main": "assets/js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazmi/gulp-collections/less"
+  },
+  "author": {
+    "name": "Hazmi Abdun Nazir",
+    "email": "hello@hazmi.id",
+    "url": "http://hazmi.id"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.2",
+    "gulp-watch": "^4.2.0"
+  }
+}
