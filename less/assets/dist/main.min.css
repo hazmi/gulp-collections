@@ -3,9 +3,4 @@
  * Gulp Collection - LESS
  * Hazmi Abdun Nazir <hello@hazmi.id>
  */
-body {
-  background: #efefef;
-}
-body .container {
-  border: #d6d6d6;
-}
+body{background:#efefef}body .container{border:#d6d6d6}
