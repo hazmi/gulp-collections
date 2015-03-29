@@ -1,0 +1,20 @@
+{
+  "name": "GulpCollection_Browserify",
+  "version": "0.0.1",
+  "description": "Gulp Collection - Browserify",
+  "main": "assets/js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazmi/gulp-collections/browserify"
+  },
+  "author": {
+    "name": "Hazmi Abdun Nazir",
+    "email": "hello@hazmi.id",
+    "url": "http://hazmi.id"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
