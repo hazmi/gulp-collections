@@ -1,0 +1,23 @@
+{
+  "name": "GulpCollection_SASS",
+  "version": "0.0.1",
+  "description": "Gulp Collection - SASS",
+  "main": "assets/js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazmi/gulp-collections/sass"
+  },
+  "author": {
+    "name": "Hazmi Abdun Nazir",
+    "email": "hello@hazmi.id",
+    "url": "http://hazmi.id"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-header": "^1.2.2",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-watch": "^4.2.0"
+  }
+}

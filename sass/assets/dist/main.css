@@ -1,0 +1,9 @@
+/**
+ * GulpCollection_SASS v0.0.1
+ * Gulp Collection - SASS
+ * Hazmi Abdun Nazir <hello@hazmi.id>
+ */
+body {
+  background: #efefef; }
+  body .container {
+    border: #d5d5d5; }
