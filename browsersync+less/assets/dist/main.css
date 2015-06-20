@@ -1,0 +1,19 @@
+/**
+ * GulpCollection_Browsersync_LESS v0.0.1
+ * Gulp Collection - Browsersync+LESS
+ * Hazmi Abdun Nazir <hello@hazmi.id>
+ */
+body {
+  font: 200 24px/1.4 Helvetica, arial, sans-serif;
+  text-align: center;
+}
+body blockquote {
+  width: 80%;
+  margin: 100px auto 0;
+  padding: 0;
+}
+body a {
+  font: 200 14px/1.4 Helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: brown;
+}
