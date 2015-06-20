@@ -16,7 +16,7 @@ var banner = ['/**',
 
 /* Task to compile sass */
 gulp.task('compile-sass', function() {
-  gulp.src('./assets/src/main.scss')
+  return gulp.src('./assets/src/main.scss')
     .pipe(sass())
     .pipe(header(banner, {pkg: pkg}))
     .pipe(gulp.dest('./assets/dist/'));
@@ -29,7 +29,7 @@ gulp.task('watch-sass', function() {
 
 /* Task to minify css */
 gulp.task('minify-css', function() {
-  gulp.src('./assets/dist/main.css')
+  return gulp.src('./assets/dist/main.css')
     .pipe(minifyCSS())
     .pipe(header(banner, {pkg: pkg}))
     .pipe(rename('main.min.css'))
