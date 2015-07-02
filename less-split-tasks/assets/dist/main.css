@@ -1,0 +1,11 @@
+/**
+ * GulpCollection_LESS_split_tasks v0.0.1
+ * Gulp Collection - LESS (split tasks)
+ * Hazmi Abdun Nazir <hello@hazmi.id>
+ */
+body {
+  background: firebrick;
+}
+body .container {
+  border: #871a1a;
+}
