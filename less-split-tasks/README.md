@@ -1,5 +1,5 @@
 # Gulp for development with LESS (split tasks)
-One task, one file. All included in gulpfile.js.
+One task, one file. All required in gulpfile.js.
 
 ## Install
 ```
