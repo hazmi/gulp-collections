@@ -5,7 +5,7 @@ export class Page extends React.Component {
   render() {
     return (
       <div className="page">
-        <Hello text="Hello World" />
+        <Hello text="Hello World!" />
       </div>
     )
   }

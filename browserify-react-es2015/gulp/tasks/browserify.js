@@ -7,6 +7,7 @@ var gulp = require('gulp');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var gutil = require('gulp-util');
+var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 var config = require('../config').js;
 
@@ -23,6 +24,7 @@ function bundle() {
     .pipe(source('app.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(uglify())
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(config.dest));
 }
